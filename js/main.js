@@ -2,8 +2,8 @@ function todoList() {
   var username = document.getElementById('username').value;
   var comment = document.getElementById('comment').value;
 
-  var userNameText = document.createTextNode('Username:' + username);
-  var commentText = document.createTextNode('comment:'+ comment);
+  var userNameText = document.createTextNode('Name:' + username);
+  var commentText = document.createTextNode('Comment:'+ comment);
 
   var newListItem = document.createElement('li');
   newListItem.className = 'list-group-item';
